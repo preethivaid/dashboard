@@ -29,3 +29,7 @@ Run the django server
 
 Create an app within the django project
 `$ python manage.py startapp <app name>`
+
+Database migrations
+`$python manage.py makemigrations <app name>`
+`$python manage.py migrate <app name>`
